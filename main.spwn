@@ -1,3 +1,5 @@
+extract import "struct.spwn"
+
 palette = {
     "0": "▦", // Darkest green / Black
     "1": "▩", // Dark green / Dark grey
