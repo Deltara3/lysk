@@ -1,14 +1,14 @@
 extract import "struct.spwn"
 
-let registers = @struct::n([
-    { a:     @string },
-    { b:     @string },
-    { c:     @string },
-    { d:     @string },
-    { e:     @string },
-    { h:     @string },
-    { l:     @string },
-    { flags: @string },
-    { sp:    @number },
-    { pc:    @string }
-])
+let registers = @struct::{
+    a:     @string,
+    b:     @string,
+    c:     @string,
+    d:     @string,
+    e:     @string,
+    h:     @string,
+    l:     @string,
+    flags: @string,
+    sp:    @number,
+    pc:    @string
+}

@@ -1,8 +1,13 @@
-extract import "struct.spwn"
+extract import "rom.spwn"
 
-palette = {
-    "0": "▦", // Darkest green / Black
-    "1": "▩", // Dark green / Dark grey
-    "2": "▨", // Light green / Light grey
-    "3": "▤"  // Lightest green / White
+let rom = "Tetris.gb"
+let rom_data = null
+
+if rom.is_empty() == true {
+    $.print("ROM path:")
+    rom_data = loadrom($.get_input("> "))
+} else {
+    rom_data = loadrom(rom)
 }
+
+$.print(rom_data)

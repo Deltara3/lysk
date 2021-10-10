@@ -1,0 +1,7 @@
+loadrom = (rom: @string) {
+    return $.readfile(rom, "bin")
+}
+
+return {
+    loadrom
+}

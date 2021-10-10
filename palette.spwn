@@ -1,0 +1,6 @@
+palette = {
+    "0": "▦", // Darkest green / Black
+    "1": "▩", // Dark green / Dark grey
+    "2": "▨", // Light green / Light grey
+    "3": "▤"  // Lightest green / White
+}
